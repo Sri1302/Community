@@ -5,6 +5,7 @@ import Home from "./components/Home"
 import Users from "./components/Users"
 import CreateGroup from "./components/CreateGroup"
 import GroupPage from "./components/GroupPage"
+import GetPendingRequest from "./components/GetPendingRequest"
 
 
 export default function App(){
@@ -16,6 +17,7 @@ export default function App(){
         <Route path="/users" element={<Users/>}/>
         <Route path="/createGroup" element={<CreateGroup/>} />
         <Route path="/groupPage" element={<GroupPage/>} />
+        <Route path="/getPendingRequests" element={<GetPendingRequest/>} />
       </Routes>
     </SignedIn>
     <SignedOut>
