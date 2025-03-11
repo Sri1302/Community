@@ -5,7 +5,7 @@ import axios from '../utils/api'
 import {io} from 'socket.io-client'
 
 //establish socket connection with the server
-const socket = io.connect('http://localhost:3000')
+const socket = io.connect('https://community-backend-nhis.onrender.com')
 
 export default function GroupPage(){
     const [msg,setMsg] = useState([])
